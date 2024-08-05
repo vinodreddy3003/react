@@ -1,0 +1,88 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.gpt-parent{
+    height: 100vh;
+    background-color: rgb(42, 40, 40);
+    display: flex;
+    margin: 0;
+}
+.gpt-child-1{
+    height: 100%;
+    flex: 2;
+    background-color: grey;
+}
+.gpt-child-2{
+    flex: 10;
+    height: 100%;
+    background-color: white;
+   
+}
+.left-nav{
+    width: auto;
+    background-color: rgb(73, 69, 71);
+    display: flex;
+    justify-content: space-between;
+}
+.left-nav>p{
+    font-size: 26px;
+    cursor: pointer;
+}
+.history{
+    padding: 10px;
+    overflow-y: auto;
+    height: 600px;
+
+}
+.history>p{
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 15px 10px;
+}
+.history>p:hover{
+    background-color: wheat;
+    cursor: pointer;
+
+}
+.box{
+    
+    
+    
+}
+.first-image{
+    background-color: white;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.chat{
+    color: brown;
+    cursor: pointer;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.middle{
+    background-color: aqua;
+    height: 600px;
+    justify-content: center;
+}
+input{
+    height: 30px;
+    width: 500px;
+    border-radius: 30px;
+    
+}
+.middle1{
+    padding: 0%;
+}
